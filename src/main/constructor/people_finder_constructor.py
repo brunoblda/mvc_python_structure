@@ -1,5 +1,5 @@
 from src.views.people_finder_view import PeopleFinderView 
-from src.controllers.people_finder_controller import PeopleFinderController
+from src.controllers import PeopleFinderController
 
 def people_finder_constructor():
     people_finder_view = PeopleFinderView()
